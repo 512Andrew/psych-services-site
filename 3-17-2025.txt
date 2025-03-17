@@ -1,0 +1,47 @@
+Great! Now let's get your site live using **GitHub + Netlify (or Vercel).** Here’s what we’ll do:
+
+---
+
+### **Step 1: Create a GitHub Repository**
+1. **Go to** [GitHub](https://github.com/) and log in.
+2. Click the **"+" icon** (top-right corner) → Select **"New Repository"**.
+3. **Repository Name:** Choose something like `psych-services-site`.
+4. **Public Repository** (so Netlify/Vercel can access it).
+5. **Check "Add a README file"** (optional, but helpful).
+6. Click **"Create Repository"**.
+
+---
+
+### **Step 2: Upload Your Project**
+1. **On your repository page**, click **"Code" → "Local" → "Set up in Desktop"** *(if using GitHub Desktop)*.
+2. If you prefer **manual upload**:
+   - Click **"Add File" → "Upload Files"**.
+   - Drag and drop your project files (`index.html`, `styles.css`, etc.).
+   - Click **"Commit changes"**.
+
+---
+
+### **Step 3: Connect GitHub to Netlify (or Vercel)**
+#### **Option 1: Netlify**
+1. **Go to** [Netlify](https://app.netlify.com/) and sign up using **GitHub**.
+2. Click **"New Site from Git"**.
+3. Select **GitHub**, authorize access.
+4. Choose your **repository** (`psych-services-site`).
+5. Click **"Deploy Site"**.
+6. Once deployed, Netlify provides a **live URL** (e.g., `psych-services.netlify.app`).
+
+#### **Option 2: Vercel (Alternative)**
+1. **Go to** [Vercel](https://vercel.com/) and sign up with **GitHub**.
+2. Click **"New Project"** → Select your **GitHub Repo**.
+3. Click **"Deploy"** (default settings are fine).
+4. Once deployed, Vercel provides a **live preview link**.
+
+---
+
+### **Step 4: Check Your Live Site**
+- Visit the **provided URL** to see your live site!
+- Anytime you **push updates to GitHub**, Netlify/Vercel will automatically update the site.
+
+---
+
+Would you like help **uploading the project files** to GitHub? I can generate a ZIP of the current code to make it easier for you! 🚀
