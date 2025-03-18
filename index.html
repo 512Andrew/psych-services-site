@@ -23,19 +23,22 @@
     
     <section id="about">
         <h2>About Janice Blake, M.A.</h2>
+        <img src="images/janice_blake.jpg" alt="Janice Blake, M.A." class="profile-image">
         <p>Janice Blake, M.A., is a licensed psychologist with a Master of Arts in Clinical Psychology from Marshall University Graduate College. She has dedicated her career to serving individuals and families in central West Virginia, with a specialization in diagnosing and treating chronic mood and psychotic disorders.</p>
         
         <h3>Credentials</h3>
-        <ul>
+        <ul class="centered-list">
             <li><strong>NPI:</strong> <a href="https://npiregistry.cms.hhs.gov/provider-view/1184770067" target="_blank">1184770067</a></li>
             <li><strong>License Number:</strong> 922</li>
             <li><strong>Affiliations:</strong> American Psychological Association, West Virginia Psychological Association</li>
         </ul>
+        
+        <p>With over two decades of experience, Janice has provided therapy, supervised psychologists, and conducted forensic evaluations for courts. Her compassionate approach and deep understanding of psychological disorders make her a trusted professional in the community.</p>
     </section>
     
     <section id="services">
         <h2>Our Services</h2>
-        <ul>
+        <ul class="centered-list">
             <li>Individual Therapy for Adolescents & Adults</li>
             <li>Family & Couples Therapy</li>
             <li>Psychological Evaluations</li>
@@ -46,12 +49,17 @@
     
     <section id="forms">
         <h2>New Client Forms</h2>
-        <p>For your convenience, please download and complete the following forms before your first appointment:</p>
-        <ul>
+        <p>For your convenience, please download, complete, and submit the following forms online or bring them to your first appointment:</p>
+        <ul class="centered-list">
             <li><a href="forms/client-intake.pdf" download>Client Intake Form</a></li>
             <li><a href="forms/consent-treatment.pdf" download>Consent for Treatment</a></li>
             <li><a href="forms/privacy-policy.pdf" download>Privacy Policy Acknowledgment</a></li>
         </ul>
+        <form action="submit_forms.php" method="post" enctype="multipart/form-data">
+            <label for="fileUpload">Upload Completed Forms:</label>
+            <input type="file" name="client_forms" id="fileUpload" multiple required>
+            <button type="submit">Submit Forms</button>
+        </form>
     </section>
     
     <section id="contact">
