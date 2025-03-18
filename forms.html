@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms | Psych Services of Roane County</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>New Client Forms</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="forms.html">Forms</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <h2>Downloadable Forms</h2>
+        <p>Please download and complete the required forms before your first appointment:</p>
+        <ul class="centered-list">
+            <li><a href="forms/treatment-agreement.pdf" download>Treatment Agreement</a></li>
+            <li><a href="forms/adult-questionnaire.pdf" download>Adult Questionnaire</a></li>
+            <li><a href="forms/child-questionnaire.pdf" download>Child Questionnaire</a></li>
+            <li><a href="forms/adult-information-form.pdf" download>Adult Information Form</a></li>
+            <li><a href="forms/child-information-form.pdf" download>Child Information Form</a></li>
+        </ul>
+
+        <h2>Submit Forms Online</h2>
+        <form action="submit_forms.php" method="post" enctype="multipart/form-data">
+            <label for="fileUpload">Upload Completed Forms:</label>
+            <input type="file" name="client_forms" id="fileUpload" multiple required>
+            <button type="submit">Submit Forms</button>
+        </form>
+
+        <h2>Fill Out Forms Online</h2>
+        <ul class="centered-list">
+            <li><a href="online-forms/treatment-agreement.html">Fill Out Treatment Agreement</a></li>
+            <li><a href="online-forms/adult-questionnaire.html">Fill Out Adult Questionnaire</a></li>
+            <li><a href="online-forms/child-questionnaire.html">Fill Out Child Questionnaire</a></li>
+            <li><a href="online-forms/adult-information-form.html">Fill Out Adult Information Form</a></li>
+            <li><a href="online-forms/child-information-form.html">Fill Out Child Information Form</a></li>
+        </ul>
+    </section>
+
+    <footer>
+        <p style="text-align: center;">&copy; 2025 Psych Services of Roane County, Inc. All rights reserved.</p>
+    </footer>
+</body>
+</html>
