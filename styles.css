@@ -2,22 +2,12 @@
    Base & Layout
    ========================================================================== */
 body {
-  /* solid-color fallback */
-  background-color: #006b81;
-
-  /* preferred blue-green gradient */
+  /* preferred client gradient */
   background: linear-gradient(to bottom, #002f4b, #005f6b, #008b8b);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  transition: background 0.5s ease-in-out, color 0.5s ease-in-out; 
-
   color: #333;
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-
-  /* center all text by default */
   text-align: center;
 }
 
@@ -27,7 +17,6 @@ body.dark-mode {
   background-image: linear-gradient(to bottom right, #1c1c1c, #2e2e2e);
   background-repeat: no-repeat;
   background-attachment: fixed;
-
   color: #eee;
   text-align: center;
 }
@@ -35,14 +24,12 @@ body.dark-mode {
 /* ==========================================================================
    Typography & Lists
    ========================================================================== */
-/* Remove all default bullets/numbers */
 ul, ol {
   list-style: none;
   padding-left: 0;
   margin: 1em 0;
 }
 
-/* Special “centered-list” styling (e.g. emergency contacts) */
 .centered-list {
   padding: 0;
   margin: 0;
@@ -52,7 +39,7 @@ ul, ol {
   max-width: 700px;
   margin: 0.5em auto;
   padding: 0.75em 1em;
-  background: #f9f9f9;
+  background: transparent;
   border-radius: 8px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
   text-align: center;
@@ -95,13 +82,16 @@ nav ul li a {
    ========================================================================== */
 section {
   padding: 2em 1em;
+  background: transparent;
 }
 
 h2, h3, h4 {
   margin-bottom: 0.5em;
 }
 
-/* About section photo formatting */
+/* ==========================================================================
+   About section photo formatting
+   ========================================================================== */
 #about img,
 .about-section img,
 .styled-photo {
