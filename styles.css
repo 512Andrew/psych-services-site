@@ -6,9 +6,11 @@ body {
   background-color: #006b81;
 
   /* preferred blue-green gradient */
-  background-image: linear-gradient(to right, #006b81, #00a7a0);
+  background: linear-gradient(to bottom, #002f4b, #005f6b, #008b8b);
   background-repeat: no-repeat;
   background-attachment: fixed;
+  background-size: cover;
+  transition: background 0.5s ease-in-out, color 0.5s ease-in-out; 
 
   color: #333;
   font-family: Arial, sans-serif;
