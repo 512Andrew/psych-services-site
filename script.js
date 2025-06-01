@@ -16,9 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
     // Dark Mode Toggle
-    const darkModeToggle = document.getElementById("dark-mode-toggle");
     darkModeToggle.addEventListener("click", () => {
-        document.body.classList.toggle("dark-mode");
     });
 
     // Navigation Fix

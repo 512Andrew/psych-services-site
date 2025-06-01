@@ -2,8 +2,8 @@
    Base & Layout
    ========================================================================== */
 body {
-  /* preferred client gradient */
-  background: linear-gradient(to bottom, #7DBFBA, #91DED7, #A6FFF7);
+  /* Client’s new lighter gradient palette */
+  background: linear-gradient(to bottom, #BAF5D5, #B0F1D3, #9CECE3);
   color: #333;
   font-family: Arial, sans-serif;
   margin: 0;
@@ -11,15 +11,7 @@ body {
   text-align: center;
 }
 
-/* Dark mode support */
-body.dark-mode {
-  background-color: #1c1c1c;
-  background-image: linear-gradient(to bottom right, #1c1c1c, #2e2e2e);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  color: #eee;
-  text-align: center;
-}
+/* Remove dark mode entirely: no .dark-mode rules */
 
 /* ==========================================================================
    Typography & Lists
